@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div id="mainDivId" class="mainDivClass"> -->
+        <!-- <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Next Page</li>
+            <li>Setting</li>
+        </ul> -->
+
+        <h1 id="heading">Events and Handlers</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Fugit adipisci aut voluptatum? Doloribus nulla, atque iusto totam voluptatum
+             ex eveniet id,
+             temporibus quisquam quia quaerat architecto, repellat hic dolore dolor.</p> 
+             <p id="time">This text will change to time : <span id="timespan">Current Date and Time
+             </span></p>
+             <input id="btn" type="button" value="submit" >
+
+    </div>
+    <script>
+        function display(){
+            let dateTime = new Date();
+            console.log(dateTime);
+            document.getElementById("timespan").innerHTML = dateTime
+
+        }
+        setInterval(display,1000)
+
+
+
+
+
+        // function greet(){
+        //     console.log("Hello World");
+        // }
+        // let interval = setInterval(greet,10000);
+        // clearInterval(interval)
+        // setTimeout(greet,10000)
+        // let paragraph = document.getElementById("para")
+        // let button = document.getElementById("btn")
+
+
+        // paragraph.addEventListener('mouseover', function test(){
+        //     console.log("Mouse is over the paragraph");
+        // })
+        // let main = document.getElementById("mainDivId");
+        // console.log(main);
+        // function hidePara()
+        //     // if(paragraph.style.display != "none")
+            // {
+            //     paragraph.style.display = "none"
+            // }
+            // else{
+            //     paragraph.style.display = "block";
+            // }
+        // button.onclick = function count(){
+        //     for(let i = 1; i <= 10; i++){
+        //         console.log(i);
+        //     }
+        // }    
+
+        
+    </script>
+</body>
+</html>
